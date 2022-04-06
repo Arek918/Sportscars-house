@@ -3,6 +3,7 @@ const navBtn = document.querySelector('.burger-btn');
 const allNavItems = document.querySelectorAll('.nav__item');
 const footerYear = document.querySelector('.footer__year');
 const offersBtn = document.querySelectorAll('.cars__card-info-btn');
+const contactBtn = document.querySelector('.contact__form-btn')
 
 const handleNav = () => {
 	nav.classList.toggle('nav--active');
@@ -26,6 +27,13 @@ offersBtn.forEach((item) => {
         alert('Dobra już wystarczy :(');
     });
 })
+
+const contctbtnAnswer = () => {
+	alert('Wiadomość została wysłana xd xd');
+}
+
+contactBtn.addEventListener('click',contctbtnAnswer)
+
 
 handleCurrentYear();
 navBtn.addEventListener('click', handleNav);
