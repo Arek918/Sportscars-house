@@ -143,7 +143,7 @@ body {
 //ABOUT_US SECTION
 
 .about-us {
-	background-image: url('/dist/img/offersbck.jpg');
+	background-image: url('./dist/img/offersbck.jpg');
 	padding-top:10em;
 	// height: 605px;
 
@@ -222,7 +222,7 @@ body {
 	width: 100%;
 	transform: translateY(-100%);
 	transition: 0.5s;
-	background-image: url('/dist/img/tło-carbon.jpg');
+	background-image: url('./dist/img/tło-carbon.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: 100;
@@ -265,7 +265,7 @@ body {
 
 //CARS
 .offers {
-	background-image: url('/dist/img/offersbck.jpg');
+	background-image: url('./dist/img/offersbck.jpg');
 	position: relative;
 	
 
@@ -300,19 +300,19 @@ body {
 				transition: transform 1s, opacity 1s;
 
 				&--first {
-					background-image: $card-gradient, url('/dist/img/ferrarismall.jpg');
+					background-image: $card-gradient, url('./dist/img/ferrarismall.jpg');
 				}
 
 				&--second {
-					background-image: $card-gradient, url('/dist/img/camarosmall.jpg');
+					background-image: $card-gradient, url('./dist/img/camarosmall.jpg');
 				}
 
 				&--third {
-					background-image: $card-gradient, url('/dist/img/audismall.jpg');
+					background-image: $card-gradient, url('./dist/img/audismall.jpg');
 				}
 
 				&--four {
-					background-image: $card-gradient, url('/dist/img/mercedes.jpg');
+					background-image: $card-gradient, url('./dist/img/mercedes.jpg');
 				}
 				&-title {
 					font-size: 2.8rem;
@@ -397,7 +397,7 @@ body {
 // PRICES
 
 .prices {
-	background-image: url('/dist/img/offersbck.jpg');
+	background-image: url('./dist/img/offersbck.jpg');
 
 	&__table {
 		color: white;
@@ -427,7 +427,7 @@ body {
 }
 
 .reviews {
-	background-image: url('/dist/img/offersbck.jpg');
+	background-image: url('./dist/img/offersbck.jpg');
 
 	&__box {
 		position: relative;
@@ -470,7 +470,7 @@ body {
 //CONTACT {
 
 .contact {
-	background-image: url('/dist/img/offersbck.jpg');
+	background-image: url('./dist/img/offersbck.jpg');
 	position: relative;
 	background-color: white;
 	overflow: hidden;
